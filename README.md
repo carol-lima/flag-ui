@@ -33,7 +33,7 @@ You will also need <a href="https://classic.yarnpkg.com/lang/en/docs/install/#ma
 ## Cloning the repository
 
 ```
-  git clone ...
+  git clone https://github.com/carol-lima/flag-ui.git
 ```
 
 ## Install all packages
