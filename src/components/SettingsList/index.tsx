@@ -8,7 +8,7 @@ type SettingsListProps = {
 };
 
 // TODO: change select data
-const mountNestedCardItems = (items: SettingsListProps, child = false) => (
+const mountNestedCardItems = (items: Setting[], child = false) => (
   items.map((setting: Setting, index: number) => (
     setting.values ?
       <S.ContentAccordions key={`${setting.label}-${index}`}>
@@ -40,7 +40,7 @@ const SettingsList = ({ items }: SettingsListProps) => (
     {items.map((setting: Setting, index: number) => (
       <S.Content key={`${setting.label}-${index}`}>
         <S.Title>{setting.label}</S.Title>
-        {mountNestedCardItems(setting.values)}
+        {mountNestedCardItems(setting.values || [])}
       </S.Content>
     ))}
   </S.Wrapper>
