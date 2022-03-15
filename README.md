@@ -11,6 +11,8 @@ The main purpose of the app is for the user to manage features and account limit
 - If a parent toggle is enabled, the child toggles should be expanded and displayed
 - If a parent toggle is disabled, the child toggles should be disabled and then collapsed
 
+[https://flag-ui.vercel.app](https://flag-ui.vercel.app/)
+
 # 🧑🏻‍💼 Admin features
 
 ...
